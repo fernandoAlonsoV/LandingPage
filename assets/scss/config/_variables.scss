@@ -1,0 +1,47 @@
+/* Header max width */
+$max-width: 1200px;
+
+$header-height: 4rem;
+
+/* Element border */
+$border-color: #CCC;
+
+/* Color text */
+$text-color: #53575A;
+
+$dark-color: #141618;
+/* Breackpoints responsive web design */
+$breakpoints: (
+    l: 960px
+
+);
+/* color palette */
+:root {
+    --color-first: #007BDF;
+    --color-border: #DFE0E0;
+    --color-alert: #FF3C32;
+    --color-dark: #282D31;
+}
+/* Z-index vars */
+:root{
+    --z-back: -10;
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+/* Tipography vars*/
+:root{
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --body-font-size: .9rem;
+    --small-font-size: .75rem;
+    @include from (l){
+        --h1-font-size: 2.5rem;
+        --h2-font-size: 1.75rem;
+        --h2-font-size: 1.5rem;
+        --body-font-size: 1rem;
+        --small-font-size: .8rem;
+    }
+}
